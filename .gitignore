@@ -1,0 +1,23 @@
+# Игнорировать виртуальную среду
+venv/
+
+# Кэшированные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Модель машинного обучения
+model.pkl
+
+# Лог файлы
+*.log
+
+# Docker файлы и промежуточные данные
+*.env
+docker-compose.override.yml
+
+# Другие временные файлы
+*.swp
+.DS_Store
+*.tmp
